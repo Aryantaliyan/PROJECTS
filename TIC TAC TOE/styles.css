@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Syne", sans-serif;
+}
+
+body{
+    background-color: #4f6d7a;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #c0d6df;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 10vmin;
+    color: #166088;
+    background-color: #c0d6df;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #4a6fa5;
+    color: #dbe9ee;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+}
+
+#new-btn{
+    padding: 1.2rem;
+    font-size: 1.5rem;
+    background-color: #4a6fa5;
+    color: #dbe9ee;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    margin: 20px;
+}
+
+#msg{
+    color: #dbe9ee;
+    font-size: 8vmin;
+} 
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vmin;
+    text-transform: capitalize;
+}
+
+.hide{
+    display: none !important;
+}
+
+.players{
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vmin;
+}
+.players div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input{
+    height: 2vmin;
+    width: 30vmin;
+    padding: 1vmin;
+    font-size: 2vmin;
+    color: #4a6fa5;
+    background-color: #dbe9ee;
+    border: none;
+    border-radius: .5rem;
+}
+label{
+    font-size: 2.5vmin;
+    color: white;
+    margin-right: 3vmin;
+}
+
+#start-player{
+    padding: .5rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    border: none;
+    width: 8rem;
+    background-color: #4a6fa5;
+    color: #dbe9ee;
+}
+
+.player-names {
+    font-size: 2rem;
+    color: white;
+    margin: 40px;
+    text-transform: capitalize;
+}
